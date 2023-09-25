@@ -1,7 +1,4 @@
-def rotate(self, nums, k) :
-        """
-        Do not return anything, modify nums in-place instead.
-        """
+def rotate(nums, k) :
         k = k % len(nums)
         
         n = 0
